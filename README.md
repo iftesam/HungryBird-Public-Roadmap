@@ -1,4 +1,4 @@
-# 🐦 HungryBird Public Roadmap
+# HungryBird Public Roadmap
 
 This repository contains the production roadmap for GetHungryBird.com.
 
