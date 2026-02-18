@@ -20,7 +20,7 @@ This roadmap is the execution record for building HungryBird from prototype to l
 | 1 | Platform Infrastructure & Subdomain Routing | **Complete** | Single codebase serving customer, merchant, rider, and admin surfaces |
 | 2 | Supabase Schema, Auth, and Role Access | **Complete** | Unified data/auth backbone with role-aware routing and policy model |
 | 3 | Merchant Onboarding + Menu Operations | **Complete** | Merchants can onboard, manage store profile, and run menu CRUD |
-| 4 | Customer Feed on Live Data | **Complete** | Student experience migrated from static data to database-backed APIs |
+| 4 | Customer Feed on Live Data | **Complete** | Customer experience migrated from static data to database-backed APIs |
 | 5 | Checkout, Payments, and Fee Logic | **Complete** | Stripe Connect flow live with marketplace split logic and order linkage |
 | 6 | Merchant KDS Operations | **Complete** | Real-time order handling from new to ready-for-pickup |
 | 7 | Rider Portal (PWA) | **Complete** | Mobile-first rider app with onboarding, availability control, and earnings/settings views |
