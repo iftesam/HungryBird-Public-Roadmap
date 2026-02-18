@@ -143,31 +143,5 @@ Business impact:
 ### Sprint 12 - Go Live - **Planned**
 Scope:
 - Production environment finalization (domains, secrets, webhooks, monitoring).
-- Initial campus rollout operations (restaurant onboarding, rider ramp, support runbook).
+- Initial San Francisco Y-Combinator area rollout operations (restaurant onboarding, rider ramp, support runbook).
 - Launch readiness review with rollback and incident playbooks.
-
-Exit criteria:
-- Zero-blocker launch checklist signed by Product, Engineering, and Operations.
-- First production cohort transacts successfully end-to-end.
-
-## Launch Readiness Checklist (Pre-Sprint 12 Signoff)
-
-- Production secrets rotated and verified across all environments.
-- Stripe live mode and webhook signatures validated.
-- Database backups, restoration drill, and alerting baselines confirmed.
-- Critical-path test pass for order -> dispatch -> delivery -> payout.
-- On-call escalation matrix and incident command workflow published.
-
-## Why This Plan Is Investor-Grade
-
-- It shows **sequenced execution**, not feature sprawl.
-- It demonstrates **risk retirement** in the right order: architecture -> revenue -> logistics -> governance -> reliability.
-- It provides a clear handoff from build phase to launch phase with objective signoff gates.
-
-## Appendix: Strategic Design Principles
-
-- **Single codebase, multi-surface architecture:** faster iteration and lower maintenance overhead.
-- **Marketplace-native money movement:** Stripe Connect for clean settlement and payout accounting.
-- **Race-safe dispatch core:** atomic claim model to preserve assignment correctness under load.
-- **Location economics discipline:** geocode-once and query-local strategy to control infra cost.
-- **Operational observability:** admin tooling plus test/load coverage before production scaling.
