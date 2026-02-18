@@ -28,7 +28,7 @@ This roadmap is the execution record for building HungryBird from prototype to l
 | 9 | Delivery Completion + Notifications | **Complete** | End-to-end delivery progression, completion handling, and customer comms loop |
 | 10 | Admin Control Plane | **Complete** | Admin dashboard with platform visibility and control actions |
 | 11 | Hardening, Testing, and Performance | **Complete** | Auth isolation tests, API integration tests, load scripts, caching, and DB index hardening |
-| 12 | Production Launch | **Planned** | Domain cutover, production keys, partner rollout, and launch operations |
+| 12 | US Operations & Legal Entity | **Planned** | Delaware C-Corp formed; Zip-code operations live with onboarded supply and demand |
 
 ## Phase-by-Phase Progress
 
@@ -140,8 +140,13 @@ Delivered:
 Business impact:
 - Platform moved from feature-complete to reliability-focused, reducing launch risk.
 
-### Sprint 12 - Go Live - **Planned**
+### Sprint 12 - US Operations & Legal Entity - **Planned**
 Scope:
-- Production environment finalization (domains, secrets, webhooks, monitoring).
-- Initial San Francisco Y-Combinator area rollout operations (restaurant onboarding, rider ramp, support runbook).
-- Launch readiness review with rollback and incident playbooks.
+- **Legal & Compliance**: Form US legal entity (Delaware C-Corp), obtain EIN, and set up US banking/Stripe infrastructure.
+- **Zip-Code Operations**: Define and enable initial target Zip Code (e.g., San Francisco 94102).
+- **Merchant Supply**: Onboard 20-30 core restaurants within the geofenced zip code.
+- **Demand & Logistics**: Activate rider recruitment in target area and enable batch-dispatching for the enabled zip code.
+
+Exit criteria:
+- Legal entity is fully operational and linked to Stripe Connect in live mode.
+- First "HungryBird" orders in the target Zip Code successfully transacted end-to-end.
